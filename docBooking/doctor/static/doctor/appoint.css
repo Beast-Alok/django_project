@@ -1,0 +1,218 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navigation-links-text1 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+.navigation-links-text2 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+.navigation-links-text3 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+.navigation-links-text4 {
+  margin-left: var(--dl-space-space-twounits);
+}
+
+.diseases-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 1.00%, rgba(0, 0, 0, 0.2) 50.00%, rgba(0, 0, 0, 0.8) 100.00%);
+}
+
+.diseases-header {
+  width: 1901px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+
+.diseases-text {
+  position: absolute;
+  left: 150px;
+  color: var(--dl-color-gray-black);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.diseases-nav {
+  display: flex;
+}
+
+.diseases-btn-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.diseases-login {
+  border-width: 0px;
+  margin-right: var(--dl-space-space-twounits);
+  background-color: transparent;
+}
+
+.diseases-register {
+  background-color: transparent;
+}
+
+.diseases-burger-menu {
+  display: none;
+}
+
+.diseases-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+
+.diseases-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.diseases-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.diseases-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+
+.diseases-image {
+  height: 2rem;
+}
+
+.diseases-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diseases-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+
+.diseases-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+
+.diseases-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+
+.diseases-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+
+.diseases-container2 {
+  top: 150px;
+  left: 500px;
+  width: 569px;
+  height: 659px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 2px;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.diseases-text1 {
+  top: 16px;
+  left: 163px;
+  position: absolute;
+  font-size: 30px;
+  align-self: center;
+  font-family: "Noto Sans";
+}
+
+.diseases-text2 {
+  top: 285px;
+  left: 45px;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Noto Sans";
+}
+
+.diseases-text3 {
+  top: 90px;
+  left: 45px;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Noto Sans";
+}
+
+.diseases-text4 {
+  top: 424px;
+  left: 45px;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Noto Sans";
+}
+
+.diseases-button {
+  right: 64px;
+  bottom: 40px;
+  position: absolute;
+  background-color: transparent;
+}
+
+.diseases-container2 .dropdown3{
+  top: 155px;
+  left: 45px;
+  position: absolute;
+}
+.diseases-container2 .dropdown2{
+  top: 325px;
+  left: 45px;
+  position: absolute;
+}
+.diseases-container2 .dropdown4{
+  top: 465px;
+  left: 45px;
+  position: absolute;
+}
+.diseases-container2 .dropdown5{
+  top: 155px;
+  left: 270px;
+  position: absolute;
+}
